@@ -99,7 +99,7 @@ Special commands:
   (tab-to-tab-stop))
 
 (defun acme-newline ()
-  "Insert linefeed + fill-prefix, to bring us back to code-indent level."
+  "Insert linefeed plus fill-prefix, to bring us back to code-indent level."
   (interactive)
   (if (eolp) (delete-horizontal-space))
   (insert "\n")
