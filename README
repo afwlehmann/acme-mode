@@ -1,7 +1,0 @@
-
-In order to install acme-mode for Emacs, copy acme-mode.el into your local
-site-lisp directory and add the following lines to your ~/.emacs:
-
-(autoload 'acme-mode "acme-mode" "Major mode for editing Acme 6502 sources." t)
-(setq auto-mode-alist (cons '(".acme$" . acme-mode) auto-mode-alist))
-
